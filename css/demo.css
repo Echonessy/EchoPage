@@ -1,0 +1,10 @@
+/**********************************Creat By Echonessy*******************************/
+h1{text-align: center;margin: 40px 0;}
+
+.Echo_PageBox{width: 1000px;height: 30px;text-align: center; overflow: hidden;margin: 0 auto; color: #222;line-height: 30px; font-size: 16px;font-family: "Microsoft YaHei" }
+.Echo_PageBox span,.Echo_PageBox ul,.Echo_PageBox li {display: inline-block; height: 100%; vertical-align: top;}
+.Echo_PageBox ul{max-width: 650px;}
+.Echo_NoGo{color: #ccc;margin: 0 30px;cursor: pointer}
+.Echo_Up,.Echo_Down {margin: 0 30px;cursor: pointer}
+.Echo_PageBox li{width: 30px;height: 30px;margin: 0 10px;cursor: pointer;border-radius: 5px;box-sizing: border-box;}
+.Echo_ThisPage{background: #20A2FF;color: white;}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <script src="js/EchoPage.js"></script>
+</head>
+<body>
+    <h1>EchoPage Demo By Echonessy</h1>
+
+    <div id="Demo"></div>
+    <script>
+        var Page=new EchoPage();
+        Page.config({
+            el:'#Demo', // 选择器
+            classPrefix:'Echo',
+            totalPage: 100, // 总页数
+            defaultPage: 1, // 默认展示第几页
+            ever: 10, // 条数
+            ClickFun:function (n) {
+                test(n) // 这里面写你的回调函数
+            }
+        })
+
+        function test(n) {
+            console.log(n)
+        }
+    </script>
+</body>
+</html>
