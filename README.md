@@ -20,6 +20,7 @@ Js:
             totalPage: 100, // 总页数
             defaultPage: 1, // 默认展示第几页
             ever: 10, // 条数
+            max: 11, // 最多显示多少条之后显示省略号
             ClickFun:function (n) {
                 test(n) // 这里面写你的回调函数
             }
