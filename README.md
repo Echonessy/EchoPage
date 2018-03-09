@@ -32,4 +32,11 @@ Js:
     </script>
     
 ```
+## 效果图
+
+![image](https://github.com/EchoPage/EchoDrag/blob/master/read/1.png)
+![image](https://github.com/EchoPage/EchoDrag/blob/master/read/2.png)
+![image](https://github.com/EchoPage/EchoDrag/blob/master/read/3.png)
+![image](https://github.com/EchoPage/EchoDrag/blob/master/read/4.png)
+
 
